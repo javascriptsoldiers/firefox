@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+D:\Firefox\GoogleVoiceWeb-20191202T144204Z-001\GoogleVoiceWeb\.metadata\.plugins\org.eclipse.jdt.core

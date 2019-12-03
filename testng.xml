@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="GoogleTest"
+	thread-count="1" parallel="tests">
+	<test name="ChromeTest">
+		<parameter name="browser" value="gecko" />
+		<classes>
+			<!-- <class name="automationBed_Google.GV.Settings" />
+			<class name="automationBed_Google.GV.SmartDnD" />
+			<class name="automationBed_Google.GV.RefundRequestPerCall" />
+			<class name="automationBed_Google.GV.InlineClick2Call" />
+			<class name="automationBed_Google.GV.DomainContact" />
+			<class name="automationBed_Google.GV.Messages" />
+			<class name="automationBed_Google.GV.Calls" />
+			<class name="automationBed_Google.GV.Voicemails" />
+			<class name="automationBed_Google.GV.SpamTest" />
+			<class name="automationBed_Google.GV.Archive" />
+			<class name="automationBed_Google.GV.UI" />
+			<class name="automationBed_Google.GV.KeyboardShortcuts" />
+			<class name="automationBed_Google.GV.Notification" />
+			<class name="automationBed_Google.GV.Search" />
+			<class name="automationBed_Google.GV.UserType" />
+			<class name="automationBed_Google.GV.UserSignUp" />
+			<class name="automationBed_Google.GV.InboxSummary" />
+			<class name="automationBed_Google.GV.MessageThreading" />
+			<class name="automationBed_Google.GV.PeopleAndOption" />
+			<class name="automationBed_Google.GV.Wolverine" />
+			<class name="automationBed_Google.GV.Voip" />
+			<class name="automationBed_Google.GV.AutoRecharge" />
+			<class name="automationBed_Google.GV.VoicemailGreeting" />
+			<class name="automationBed_Google.GV.CallSideBarUI" />
+			<class name="automationBed_Google.GV.CallSideBarSpamTab" />
+			<class name="automationBed_Google.GV.CallSidebarVoicemailTab" />
+			<class name="automationBed_Google.GV.CallSideBarArchiveTab" />
+			<class name="automationBed_Google.GV.CallSideBarMessageTab" />
+			<class name="automationBed_Google.GV.CallSideBarCallTab" />
+			<class name="automationBed_Google.GV.CallingRates" /> -->
+			
+			<class name="automationBed_Google.GV.Settings" />
+			<!-- <class name="automationBed_Google.GV.AttachmentsAudioOrVideo" /> -->
+			<class name="automationBed_Google.GV.TopNandFavoriteContactUI" />
+			<class name="automationBed_Google.GV.Messages" />
+			<class name="automationBed_Google.GV.Calls" />
+			<class name="automationBed_Google.GV.UI" />
+			<class name="automationBed_Google.GV.Search" />
+			<class name="automationBed_Google.GV.UserType" />
+			<class name="automationBed_Google.GV.MessageThreading" />
+			<class name="automationBed_Google.GV.Voip" />
+			<class name="automationBed_Google.GV.AutoRecharge" />
+			<class name="automationBed_Google.GV.VoicemailGreeting" />
+			<class name="automationBed_Google.GV.CallSideBarUI" />
+			<class name="automationBed_Google.GV.CallSideBarSpamTab" />
+			<class name="automationBed_Google.GV.CallingRates" />
+			
+						
+			
+		</classes>
+	</test>
+</suite>
